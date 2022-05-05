@@ -1,6 +1,6 @@
 # Wiki
 
-Wikipedia-like online encyclopedia developed using ASP.NET MVC (C#), HTML and CSS (Bootstrap).
+Wikipedia-like online encyclopedia developed using ASP.NET MVC (C#), HTML, CSS (Bootstrap) and JavaScript.
 
 Entries are stored using  SQL database. 
 
