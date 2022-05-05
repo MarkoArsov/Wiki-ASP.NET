@@ -1,0 +1,18 @@
+﻿@model Wiki.Models.Entry
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>@Model.Title</h2>
+
+<div>
+    @Html.DisplayFor(model => model.Content)
+</div>
+
+<hr />
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.EntryID }) |
+    @Html.ActionLink("Delete", "Delete", new { id = Model.EntryID }) 
+</p>

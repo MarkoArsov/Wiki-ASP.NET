@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Wiki.Models.Entry>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>All Entries</h2>
+
+<table class="table">
+ 
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink(item.Title, "Details", new { id = item.EntryID })
+        </td>
+    </tr>
+}
+
+</table>
